@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #1e3a8a; /* Dark Blue */
+  color: #f3f4f6; /* Light Gray */
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* Styling for Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #2563eb; /* Bright Blue */
+  color: #ffffff;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f4f6; /* Light Gray */
+}
+
+tbody tr:hover {
+  background-color: #e5f5f9; /* Slight Hover Effect */
+}
+
+/* Section Headings */
+h2 {
+  margin: 15px 0;
+  color: #10b981; /* Light Green */
+  font-size: 1.8em;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 10px 0;
+}
+
+/* Buttons */
+button, .button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1e40af; /* Deep Blue */
+  color: #f3f4f6; /* Light Gray */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover, .button:hover {
+  background-color: #2563eb; /* Bright Blue */
+  transform: translateY(-2px);
+}
+
+/* Code Snippets */
+span.css {
+  background-color: #e0f7fa; /* Cyan Light */
+  color: #005662; /* Cyan Dark */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+span.html5 {
+  background-color: #ffe0b2; /* Light Orange */
+  color: #bf360c; /* Dark Orange */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+span.black {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  th, td {
+      font-size: 0.9em;
+  }
+
+  button, .button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+  }
+}

@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1e3a8a; /* Dark Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header .header {
+    color: #f3f4f6; /* Light Gray */
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.banner {
+    background-color: #34d399; /* Emerald Green */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner p {
+    font-size: 1.2em;
+    color: #064e3b; /* Dark Green */
+}
+
+section h2 {
+    color: #10b981; /* Light Green */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+button a {
+    color: #f3f4f6; /* Light Gray */
+    font-size: 1em;
+    text-decoration: none;
+}
+
+section button{
+    background-color: #1e40af; /* Deep Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section button:hover {
+    background-color: #2563eb; /* Bright Blue */
+}
+
+footer {
+    background-color: #1e293b; /* Navy Blue */
+    color: #f3f4f6; /* Light Gray */
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #60a5fa; /* Sky Blue */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #3b82f6; /* Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .header {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    footer ul li a {
+        font-size: 1em;
+    }
+}

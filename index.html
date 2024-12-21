@@ -1,119 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./resources/css/Landing.css">
+</head>
+<body>
 
-  <head>
-    <title>Cheat Sheet</title>
-    <link rel="stylesheet" href="./resources/css/styles.css">
-  </head>
+    <header>
+        <h1 class="header">Welcome To my cheatsheet</h1>
+    </header>
 
-  <body>
+    <main>
+        <section class="banner">
+            <p>Your ultimate companion to mastering web development. Here, you'll find quick and handy references to all the essential tools, tips, and tricks you need to build amazing websites. Whether you're just starting or looking to refine your skills, my cheatsheet has got you covered. Dive in, explore, and happy coding!</p>
+        </section>
 
-    <nav>
-      <h1>CSS selectors and specificity</h1>
-    </nav>
+        <section>
 
-    <div id="css selectors">
+            <h2>Here are links to different cheatsheets. Have fun!</h2>
 
-      <h2>CSS Selectors and their specificty level</h2>
+            <button><a href="./HTML5.html">HTML</a></button>
+            <button><a href="./CSS.html">CSS</a></button>
+            <button><a href="#">Javascript</a></button>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Selector</th>
-            <th>Name</th>
-            <th>Discription</th>
-            <th>Specificity</th>
-          </tr>
-        </thead>
-        <tbody>
+        </section>
+    </main>
 
-          <tr>
-            <td>(p,a,body etc)</td>
-            <td>tag selector</td>
-            <td>This selector targets all corresponding HTML tags in the HTML document</td>
-            <td>Is the least specific</td>
-          </tr>
+    <footer>
+        <p>Made by Kelechi Oliver Okolo</p>
 
-          <tr>
-            <td>(.value)</td>
-            <td>Class selector</td>
-            <td>This targests all class atributes with that same value</td>
-            <td>more specific than tag selectors</td>
-          </tr>
+        <p>Follow me on:</p>
 
-          <tr>
-            <td>(#value)</td>
-            <td>id selector</td>
-            <td>This selector targets id atributes with the indicated value</td>
-            <td>Is the most specific because it can only be used once</td>
-          </tr>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
 
-        </tbody>
-      </table>
-    </div>
-
-    <div class="selector-info">
-      <p>CSS selectors can be grouped to target more specific elements. For example you can target the child or a particular selector. This is done by identifiying the parent selector fooled by the child element.</p>
-
-    <p>Secondly you can also select multiple elements at once using the coma(,). Eaxmple (p,nav,h1{}) applies the same styling to all the three tags mensioned.</p>
-    </div>
-
-    <div class="Learn inks and buttons">
-      <h1>Links and Buttons</h1>
-      <p>It is important to make sure that links and buttons are distigishable from other text.</p>
-
-      <h2>Links</h2>
-
-      <table>
-        <thead>
-          <tr>
-            <th>item </th>
-            <th>discription</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="css">color</span></td>
-            <td><span>Used to distingish a link using color</span></td>
-          </tr>
-          <tr>
-            <td><span class="css">text-decoration</span></td>
-            <td><span>Used to underline links to distingish them</span></td>
-          </tr>
-          <tr>
-            <td><span class="html5">title</span></td>
-            <td><span>Used to display a tooltip when the mouse hovers over the link.</span></td>
-          </tr>
-          <tr>
-            <td><span class="css">:hover</span></td>
-            <td><span>This is a css pseudo class used to style elements when you hover over them.</span></td>
-          </tr>
-          <tr>
-            <td><span class="css">cursor</span></td>
-            <td><span>Used to change the style of the cursor when you hover over a link or any other element you want yo distingish</span></td>
-          </tr>
-          <tr>
-            <td><ul>
-              <li><span class="css">:link</span></li>
-              <li><span class="css">:visited</span></li>
-              <li><span class="css">:hover</span></li>
-              <li><span class="css">:active</span></li>
-            </ul></td>
-            <td><span>These pseudo classes are used to show the state of a link and are specified in that order</span></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2>Buttons</h2>
-      <p>Buttons are indicated by the <span class="html5 black">button</span> tag and outputs below:</p>
-
-      <button>Button</button>
-
-      <p>The are some technigues used to make a button look and act like real buttons which can be looked up. In addition to this the states above can be used for links.</p>
-
-
-    </div>
-
-
-  </body>
+    </footer>
+    
+</body>
 </html>

@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #1e3a8a;;
+
+}
+
+li{
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin: 1rem;
+    color: #f4f4f4;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introduction h1{
+    text-align: center;
+    color: darkcyan;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(2, 73, 80, 0.4);
+    margin: 1rem;
+
+}
+
+section{
+    margin: 1rem;
+}
+
+.introduction div{
+    background-color: #34d399; /* Emerald Green */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction p{
+    font-size: 1.2em;
+    color: #064e3b; /* Dark Green */
+}
+
+section h2 {
+    color: #10b981; /* Light Green */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Styling for Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #2563eb; /* Bright Blue */
+    color: #ffffff;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f3f4f6; /* Light Gray */
+  }
+  
+  tbody tr:hover {
+    background-color: #e5f5f9; /* Slight Hover Effect */
+  }
+
+  .color_display{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    border: 3px solid #10b981;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+
+
+  }
+
+  /* Color box styling */
+  .color_display div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: #064e3b;
+    margin: 20px;
+    flex-grow: 1;
+    border-radius: 100px;
+    
+    
+  }
+
+   div .color_1{
+    background-color: cornflowerblue;
+    
+  }
+
+  div .color_2{
+    background-color: lightgreen;
+    
+  }
+
+  div .color_3{
+    background-color: thistle;
+    
+  }
+
+  div .color_4{
+    background-color: lightsalmon;
+    
+  }
+
+  div .color_5{
+    background-color: darkcyan;
+    
+  }
+
+  div .color_6{
+    background-color: greenyellow;
+  }
+
+/* Ancor tag styling */
+
+  a{
+    color:cornflowerblue;
+  }
+
+  a:visited{
+    color: #824de6;
+  }
+
+  a:hover{
+    color: lightseagreen;
+    text-decoration: none;
+  }
+
+  /*  */
+  .font_example div{
+    border:3px solid #b4e9f0;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    flex-grow: 0;
+  }
